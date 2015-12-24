@@ -148,7 +148,7 @@ var gulp = require('gulp'),
 	  gulp.watch('sass/*.scss', ['sassbulid']);
 	  // Watch .js files
 	  gulp.watch('js/*.js',['scripts']);
-	  // Watch image files
+	  // Watch image files 
   	  gulp.watch('images/*', ['images']);
   	  // Create LiveReload server
   	  livereload.listen();
